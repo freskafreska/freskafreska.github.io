@@ -226,6 +226,10 @@ h3 {
     height: 100%;
 }
 
+.teaser {
+    height: 600px;
+}
+
 .vocemenu a {
     text-decoration: none;
     color: white;
