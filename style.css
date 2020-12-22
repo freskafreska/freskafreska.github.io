@@ -1,0 +1,304 @@
+/*Font importati*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@200;600&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Inizio css*/
+
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    box-sizing: border-box;
+    background-color: #ff48b2;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.contenimento {
+    width: 80%;
+    height: auto;
+    background: black;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin: 0;
+}
+
+.coloresfondo {
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.fasciainalto {
+    display: flex;
+    padding: 20px 0px 60px 0px;
+}
+
+.icona .logodorsia {
+    width: 100%;
+}
+
+.fasciainalto .icona {
+    width: 15%;
+}
+
+.fasciainalto .informazioni {
+    width: 85%;
+}
+
+.informazioni {
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+}
+
+.informazioni .vocemenu {
+    margin: 0px;
+    max-width: 180px;
+    display: inline-block;
+    text-align: left;
+}
+
+.contenimento .teaser {
+    width: 100%;
+}
+
+.teaser iframe {
+    width: 100%;
+}
+
+.vocemenu a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.teaser {
+    height: 600px;
+}
+
+.campionecolore {
+    width: 1000px;
+}
+
+footer {
+    display: flex;
+    background-color: #ff48b2;
+}
+
+footer .iconafooter {
+    width: 10%;
+}
+
+footer .pagineinfo {
+    width: 90%;
+}
+
+.iconafooter .logodorsia {
+    width: 90%;
+    padding: 45.61px 0px 0px 0px;
+    margin-left: 10px;
+}
+
+.pagineinfo {
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+}
+
+.pagineinfo .linkfooter {
+    margin: 0px;
+    max-width: 180px;
+    display: inline-block;
+    text-align: left;
+}
+
+.linkfooter a .linkvideo {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+main {
+    display: flex;
+}
+
+.fotoprofilo img {
+    width: 300px;
+    border-radius: 150px;
+    margin-bottom: 40px;
+}
+
+.descrizione p {
+    margin: 75px 10px 0px 20px;
+}
+
+.loghifestival {
+    margin-bottom: 40px;
+}
+
+.loghifestival img {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.salerno {
+    width: 400px;
+}
